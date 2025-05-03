@@ -6,13 +6,13 @@
 #    By: yabukirento <yabukirento@student.42.fr>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/05/03 15:40:57 by yabukirento       #+#    #+#              #
-#    Updated: 2025/05/03 15:41:47 by yabukirento      ###   ########.fr        #
+#    Updated: 2025/05/03 17:15:13 by yabukirento      ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = firstClapTrap
 CC = c++
-CFLAGS = -Wall -Wextra -Werror -std=c++98 -pedantic
+CFLAGS = -Wall -Wextra -Werror -std=c++98 -pedantic -Wshadow
 INCLUDES = -I includes
 
 SRCS =	srcs/main.cpp \
