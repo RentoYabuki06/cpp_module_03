@@ -1,0 +1,40 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    Makefile                                           :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: yabukirento <yabukirento@student.42.fr>    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2025/05/03 15:40:57 by yabukirento       #+#    #+#              #
+#    Updated: 2025/05/03 16:34:53 by yabukirento      ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+NAME = secondClapTrap
+CC = c++
+CFLAGS = -Wall -Wextra -Werror -std=c++98 -pedantic
+INCLUDES = -I includes
+
+SRCS =	srcs/main.cpp \
+		srcs/ClapTrap.cpp \
+		srcs/ScavTrap.cpp 
+
+OBJS = $(SRCS:.cpp=.o)
+
+all: $(NAME)
+
+$(NAME): $(OBJS)
+	$(CC) $(CFLAGS) -o $(NAME) $(OBJS)
+
+%.o: %.cpp
+	$(CC) $(CFLAGS) -c $< -o $@
+
+clean:
+	rm -f $(OBJS)
+
+fclean: clean
+	rm -f $(NAME)
+	
+re: fclean all
+
+.PHONY: all clean fclean re
