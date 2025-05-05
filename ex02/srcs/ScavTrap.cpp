@@ -3,14 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ScavTrap.cpp                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yabukirento <yabukirento@student.42.fr>    +#+  +:+       +#+        */
+/*   By: ryabuki <ryabuki@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/03 16:13:58 by yabukirento       #+#    #+#             */
-/*   Updated: 2025/05/03 16:35:43 by yabukirento      ###   ########.fr       */
+/*   Updated: 2025/05/05 19:14:54 by ryabuki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/ScavTrap.hpp"
+
+ScavTrap::ScavTrap() {}
 
 ScavTrap::ScavTrap(const std::string name) : ClapTrap(name)
 {
