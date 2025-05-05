@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   Scavtrap.hpp                                       :+:      :+:    :+:   */
+/*   ScavTrap.hpp                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yabukirento <yabukirento@student.42.fr>    +#+  +:+       +#+        */
+/*   By: ryabuki <ryabuki@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/03 16:13:52 by yabukirento       #+#    #+#             */
-/*   Updated: 2025/05/03 16:31:08 by yabukirento      ###   ########.fr       */
+/*   Updated: 2025/05/05 19:12:28 by ryabuki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,8 @@
 
 class ScavTrap : public ClapTrap
 {
+private:
+	ScavTrap();
 public:
 	ScavTrap(const std::string name);
 	ScavTrap(const ScavTrap& other);
