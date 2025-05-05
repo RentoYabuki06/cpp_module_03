@@ -3,14 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ClapTrap.cpp                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yabukirento <yabukirento@student.42.fr>    +#+  +:+       +#+        */
+/*   By: ryabuki <ryabuki@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/03 15:05:51 by yabukirento       #+#    #+#             */
-/*   Updated: 2025/05/03 15:40:38 by yabukirento      ###   ########.fr       */
+/*   Updated: 2025/05/05 19:17:19 by ryabuki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/ClapTrap.hpp"
+
+ClapTrap::ClapTrap() {}
 
 ClapTrap::ClapTrap(const std::string& name)
 	: _name(name)

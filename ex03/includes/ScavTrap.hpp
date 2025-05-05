@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ScavTrap.hpp                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yabukirento <yabukirento@student.42.fr>    +#+  +:+       +#+        */
+/*   By: ryabuki <ryabuki@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/03 16:13:52 by yabukirento       #+#    #+#             */
-/*   Updated: 2025/05/03 17:32:01 by yabukirento      ###   ########.fr       */
+/*   Updated: 2025/05/05 19:22:45 by ryabuki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,8 @@
 
 class ScavTrap : virtual public ClapTrap
 {
+protected:
+	ScavTrap();
 public:
 	ScavTrap(const std::string name);
 	ScavTrap(const ScavTrap& other);

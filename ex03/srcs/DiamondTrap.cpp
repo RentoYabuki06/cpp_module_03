@@ -3,15 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   DiamondTrap.cpp                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yabukirento <yabukirento@student.42.fr>    +#+  +:+       +#+        */
+/*   By: ryabuki <ryabuki@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/03 17:30:47 by yabukirento       #+#    #+#             */
-/*   Updated: 2025/05/03 17:46:28 by yabukirento      ###   ########.fr       */
+/*   Updated: 2025/05/05 19:18:01 by ryabuki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-
 #include "../includes/DiamondTrap.hpp"
+
+DiamondTrap::DiamondTrap() {}
 
 DiamondTrap::DiamondTrap(const std::string name)
 	: ClapTrap(name + "_clap_name")

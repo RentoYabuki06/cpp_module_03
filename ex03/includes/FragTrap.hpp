@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   FragTrap.hpp                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yabukirento <yabukirento@student.42.fr>    +#+  +:+       +#+        */
+/*   By: ryabuki <ryabuki@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/03 16:43:23 by yabukirento       #+#    #+#             */
-/*   Updated: 2025/05/03 17:31:52 by yabukirento      ###   ########.fr       */
+/*   Updated: 2025/05/05 19:21:15 by ryabuki          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,8 @@
 
 class FragTrap : virtual public ClapTrap
 {
+protected:
+	FragTrap();
 public:
 	FragTrap(const std::string name);
 	FragTrap(const FragTrap& other);
